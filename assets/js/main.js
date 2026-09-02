@@ -63,14 +63,9 @@ if(form){
   }
 
   // ✅ Redirect when "Yes" is clicked
-  bd.querySelector('#age-yes').addEventListener('click', function(){
-    window.location.href = "https://trackdock.site/"; // change to your target page
-  });
-
+  bd.querySelector('#age-yes').addEventListener('click', closeGate();
   // ✅ Just close modal when "No" is clicked
-  bd.querySelector('#age-no').addEventListener('click', function(){
-    window.location.href = "https://trackdock.site/"; // change to your target page
-  });
+  bd.querySelector('#age-no').addEventListener('click', closeGate();
 })();
 
 (function(){
@@ -94,12 +89,8 @@ if(form){
 
   function closeGate(){ bd.style.display='none'; bd.remove(); }  
   // ✅ Redirect when "Yes" is clicked
-  bd.querySelector('#age-yes').addEventListener('click', function(){
-    window.location.href = "https://trackdock.site/"; // change to your target page
-  });
+  bd.querySelector('#age-yes').addEventListener('click', click', closeGate();
 
   // ✅ Just close modal when "No" is clicked
-  bd.querySelector('#age-no').addEventListener('click', function(){
-    window.location.href = "https://trackdock.site/"; // change to your target page
-  });
+  bd.querySelector('#age-no').addEventListener('click', click', closeGate();
 })();
